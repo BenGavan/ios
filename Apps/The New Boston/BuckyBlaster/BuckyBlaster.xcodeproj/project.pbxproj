@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5B512541EDF571300ABAE64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B512531EDF571300ABAE64 /* AppDelegate.swift */; };
+		B5B512561EDF571300ABAE64 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B5B512551EDF571300ABAE64 /* GameScene.sks */; };
+		B5B512581EDF571300ABAE64 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = B5B512571EDF571300ABAE64 /* Actions.sks */; };
+		B5B5125A1EDF571300ABAE64 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B512591EDF571300ABAE64 /* GameScene.swift */; };
+		B5B5125C1EDF571300ABAE64 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B5125B1EDF571300ABAE64 /* GameViewController.swift */; };
+		B5B5125F1EDF571300ABAE64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B5125D1EDF571300ABAE64 /* Main.storyboard */; };
+		B5B512611EDF571300ABAE64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5B512601EDF571300ABAE64 /* Assets.xcassets */; };
+		B5B512641EDF571300ABAE64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B512621EDF571300ABAE64 /* LaunchScreen.storyboard */; };
+		B5B5126F1EDF571300ABAE64 /* BuckyBlasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B5126E1EDF571300ABAE64 /* BuckyBlasterTests.swift */; };
+		B5B5127A1EDF571300ABAE64 /* BuckyBlasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B512791EDF571300ABAE64 /* BuckyBlasterUITests.swift */; };
+		B5B512881EE323E200ABAE64 /* ShooterScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B512871EE323E200ABAE64 /* ShooterScene.swift */; };
+		B5B5128A1EE3244200ABAE64 /* ShooterScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B5B512891EE3244200ABAE64 /* ShooterScene.sks */; };
+		B5B5128C1EE472A700ABAE64 /* shooter.atlas.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5B5128B1EE472A700ABAE64 /* shooter.atlas.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5B5126B1EDF571300ABAE64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5B512481EDF571300ABAE64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5B5124F1EDF571300ABAE64;
+			remoteInfo = BuckyBlaster;
+		};
+		B5B512761EDF571300ABAE64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5B512481EDF571300ABAE64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5B5124F1EDF571300ABAE64;
+			remoteInfo = BuckyBlaster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5B512501EDF571300ABAE64 /* BuckyBlaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuckyBlaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5B512531EDF571300ABAE64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5B512551EDF571300ABAE64 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		B5B512571EDF571300ABAE64 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		B5B512591EDF571300ABAE64 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		B5B5125B1EDF571300ABAE64 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		B5B5125E1EDF571300ABAE64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5B512601EDF571300ABAE64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5B512631EDF571300ABAE64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5B512651EDF571300ABAE64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5B5126A1EDF571300ABAE64 /* BuckyBlasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuckyBlasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5B5126E1EDF571300ABAE64 /* BuckyBlasterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuckyBlasterTests.swift; sourceTree = "<group>"; };
+		B5B512701EDF571300ABAE64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5B512751EDF571300ABAE64 /* BuckyBlasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuckyBlasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5B512791EDF571300ABAE64 /* BuckyBlasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuckyBlasterUITests.swift; sourceTree = "<group>"; };
+		B5B5127B1EDF571300ABAE64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5B512871EE323E200ABAE64 /* ShooterScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShooterScene.swift; sourceTree = "<group>"; };
+		B5B512891EE3244200ABAE64 /* ShooterScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ShooterScene.sks; sourceTree = "<group>"; };
+		B5B5128B1EE472A700ABAE64 /* shooter.atlas.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = shooter.atlas.xcassets; path = Assets.xcassets/shooter.atlas.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5B5124D1EDF571300ABAE64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5B512671EDF571300ABAE64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5B512721EDF571300ABAE64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5B512471EDF571300ABAE64 = {
+			isa = PBXGroup;
+			children = (
+				B5B512521EDF571300ABAE64 /* BuckyBlaster */,
+				B5B5126D1EDF571300ABAE64 /* BuckyBlasterTests */,
+				B5B512781EDF571300ABAE64 /* BuckyBlasterUITests */,
+				B5B512511EDF571300ABAE64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5B512511EDF571300ABAE64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5B512501EDF571300ABAE64 /* BuckyBlaster.app */,
+				B5B5126A1EDF571300ABAE64 /* BuckyBlasterTests.xctest */,
+				B5B512751EDF571300ABAE64 /* BuckyBlasterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5B512521EDF571300ABAE64 /* BuckyBlaster */ = {
+			isa = PBXGroup;
+			children = (
+				B5B512531EDF571300ABAE64 /* AppDelegate.swift */,
+				B5B512891EE3244200ABAE64 /* ShooterScene.sks */,
+				B5B512551EDF571300ABAE64 /* GameScene.sks */,
+				B5B512871EE323E200ABAE64 /* ShooterScene.swift */,
+				B5B512571EDF571300ABAE64 /* Actions.sks */,
+				B5B512591EDF571300ABAE64 /* GameScene.swift */,
+				B5B5125B1EDF571300ABAE64 /* GameViewController.swift */,
+				B5B5125D1EDF571300ABAE64 /* Main.storyboard */,
+				B5B512601EDF571300ABAE64 /* Assets.xcassets */,
+				B5B5128B1EE472A700ABAE64 /* shooter.atlas.xcassets */,
+				B5B512621EDF571300ABAE64 /* LaunchScreen.storyboard */,
+				B5B512651EDF571300ABAE64 /* Info.plist */,
+			);
+			path = BuckyBlaster;
+			sourceTree = "<group>";
+		};
+		B5B5126D1EDF571300ABAE64 /* BuckyBlasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5B5126E1EDF571300ABAE64 /* BuckyBlasterTests.swift */,
+				B5B512701EDF571300ABAE64 /* Info.plist */,
+			);
+			path = BuckyBlasterTests;
+			sourceTree = "<group>";
+		};
+		B5B512781EDF571300ABAE64 /* BuckyBlasterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5B512791EDF571300ABAE64 /* BuckyBlasterUITests.swift */,
+				B5B5127B1EDF571300ABAE64 /* Info.plist */,
+			);
+			path = BuckyBlasterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5B5124F1EDF571300ABAE64 /* BuckyBlaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5B5127E1EDF571300ABAE64 /* Build configuration list for PBXNativeTarget "BuckyBlaster" */;
+			buildPhases = (
+				B5B5124C1EDF571300ABAE64 /* Sources */,
+				B5B5124D1EDF571300ABAE64 /* Frameworks */,
+				B5B5124E1EDF571300ABAE64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuckyBlaster;
+			productName = BuckyBlaster;
+			productReference = B5B512501EDF571300ABAE64 /* BuckyBlaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5B512691EDF571300ABAE64 /* BuckyBlasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5B512811EDF571300ABAE64 /* Build configuration list for PBXNativeTarget "BuckyBlasterTests" */;
+			buildPhases = (
+				B5B512661EDF571300ABAE64 /* Sources */,
+				B5B512671EDF571300ABAE64 /* Frameworks */,
+				B5B512681EDF571300ABAE64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5B5126C1EDF571300ABAE64 /* PBXTargetDependency */,
+			);
+			name = BuckyBlasterTests;
+			productName = BuckyBlasterTests;
+			productReference = B5B5126A1EDF571300ABAE64 /* BuckyBlasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5B512741EDF571300ABAE64 /* BuckyBlasterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5B512841EDF571300ABAE64 /* Build configuration list for PBXNativeTarget "BuckyBlasterUITests" */;
+			buildPhases = (
+				B5B512711EDF571300ABAE64 /* Sources */,
+				B5B512721EDF571300ABAE64 /* Frameworks */,
+				B5B512731EDF571300ABAE64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5B512771EDF571300ABAE64 /* PBXTargetDependency */,
+			);
+			name = BuckyBlasterUITests;
+			productName = BuckyBlasterUITests;
+			productReference = B5B512751EDF571300ABAE64 /* BuckyBlasterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5B512481EDF571300ABAE64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Ben;
+				TargetAttributes = {
+					B5B5124F1EDF571300ABAE64 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					B5B512691EDF571300ABAE64 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B5B5124F1EDF571300ABAE64;
+					};
+					B5B512741EDF571300ABAE64 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B5B5124F1EDF571300ABAE64;
+					};
+				};
+			};
+			buildConfigurationList = B5B5124B1EDF571300ABAE64 /* Build configuration list for PBXProject "BuckyBlaster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5B512471EDF571300ABAE64;
+			productRefGroup = B5B512511EDF571300ABAE64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5B5124F1EDF571300ABAE64 /* BuckyBlaster */,
+				B5B512691EDF571300ABAE64 /* BuckyBlasterTests */,
+				B5B512741EDF571300ABAE64 /* BuckyBlasterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5B5124E1EDF571300ABAE64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B5125F1EDF571300ABAE64 /* Main.storyboard in Resources */,
+				B5B512561EDF571300ABAE64 /* GameScene.sks in Resources */,
+				B5B512611EDF571300ABAE64 /* Assets.xcassets in Resources */,
+				B5B512641EDF571300ABAE64 /* LaunchScreen.storyboard in Resources */,
+				B5B512581EDF571300ABAE64 /* Actions.sks in Resources */,
+				B5B5128C1EE472A700ABAE64 /* shooter.atlas.xcassets in Resources */,
+				B5B5128A1EE3244200ABAE64 /* ShooterScene.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5B512681EDF571300ABAE64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5B512731EDF571300ABAE64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5B5124C1EDF571300ABAE64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B5125A1EDF571300ABAE64 /* GameScene.swift in Sources */,
+				B5B5125C1EDF571300ABAE64 /* GameViewController.swift in Sources */,
+				B5B512541EDF571300ABAE64 /* AppDelegate.swift in Sources */,
+				B5B512881EE323E200ABAE64 /* ShooterScene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5B512661EDF571300ABAE64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B5126F1EDF571300ABAE64 /* BuckyBlasterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5B512711EDF571300ABAE64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B5127A1EDF571300ABAE64 /* BuckyBlasterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5B5126C1EDF571300ABAE64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5B5124F1EDF571300ABAE64 /* BuckyBlaster */;
+			targetProxy = B5B5126B1EDF571300ABAE64 /* PBXContainerItemProxy */;
+		};
+		B5B512771EDF571300ABAE64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5B5124F1EDF571300ABAE64 /* BuckyBlaster */;
+			targetProxy = B5B512761EDF571300ABAE64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5B5125D1EDF571300ABAE64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5B5125E1EDF571300ABAE64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5B512621EDF571300ABAE64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5B512631EDF571300ABAE64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5B5127C1EDF571300ABAE64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5B5127D1EDF571300ABAE64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5B5127F1EDF571300ABAE64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BuckyBlaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ben.BuckyBlaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B5B512801EDF571300ABAE64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BuckyBlaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ben.BuckyBlaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B5B512821EDF571300ABAE64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BuckyBlasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ben.BuckyBlasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuckyBlaster.app/BuckyBlaster";
+			};
+			name = Debug;
+		};
+		B5B512831EDF571300ABAE64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BuckyBlasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ben.BuckyBlasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuckyBlaster.app/BuckyBlaster";
+			};
+			name = Release;
+		};
+		B5B512851EDF571300ABAE64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BuckyBlasterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ben.BuckyBlasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BuckyBlaster;
+			};
+			name = Debug;
+		};
+		B5B512861EDF571300ABAE64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BuckyBlasterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ben.BuckyBlasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BuckyBlaster;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5B5124B1EDF571300ABAE64 /* Build configuration list for PBXProject "BuckyBlaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5B5127C1EDF571300ABAE64 /* Debug */,
+				B5B5127D1EDF571300ABAE64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5B5127E1EDF571300ABAE64 /* Build configuration list for PBXNativeTarget "BuckyBlaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5B5127F1EDF571300ABAE64 /* Debug */,
+				B5B512801EDF571300ABAE64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5B512811EDF571300ABAE64 /* Build configuration list for PBXNativeTarget "BuckyBlasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5B512821EDF571300ABAE64 /* Debug */,
+				B5B512831EDF571300ABAE64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5B512841EDF571300ABAE64 /* Build configuration list for PBXNativeTarget "BuckyBlasterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5B512851EDF571300ABAE64 /* Debug */,
+				B5B512861EDF571300ABAE64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5B512481EDF571300ABAE64 /* Project object */;
+}

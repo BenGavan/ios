@@ -1,0 +1,1535 @@
+//
+// Wire
+// Copyright (C) 2016 Wire Swiss GmbH
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with this program. If not, see http://www.gnu.org/licenses/.
+//
+// General strings
+
+
+"general.ok" = "OK";
+"general.next" = "次へ";
+"general.cancel" = "キャンセル";
+"general.close" = "閉じる";
+"general.back" = "戻る";
+"general.open_settings" = "Wireの設定を開く";
+"general.edit" = "編集";
+"general.done" = "完了";
+"general.confirm" = "OK";
+"general.skip" = "いまは行わない";
+"general.accept" = "承諾";
+"general.decline" = "不要です";
+"general.failure" = "何か問題があります";
+"general.service" = "Service";
+"general.off" = "オフ";
+"general.on" = "オン";
+
+// Language like Chinese does not use space to sperate words or sentences.
+"general.space_between_words" = "\U200B";
+
+"general.guest-room-name" = "ゲストルーム";
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++
+// People picker/start UI
+"peoplepicker.search_placeholder" = "名前またはユーザーネームで検索する";
+"peoplepicker.header.top_people" = "Top people";
+"peoplepicker.button.create_conversation" = "グループを作成";
+"peoplepicker.button.add_to_conversation" = "Add Participants to Group";
+"peoplepicker.header.conversations" = "グループ";
+"peoplepicker.header.team_conversations" = "%@ グループ";
+"peoplepicker.header.send_invitation" = "招待";
+"peoplepicker.header.contacts" = "連絡先";
+"peoplepicker.header.contacts_personal" = "個人の連絡先";
+"peoplepicker.header.directory" = "接続";
+
+"peoplepicker.group.title.singular" = "参加者を追加";
+"peoplepicker.group.title.plural" = "Add Participants (%d)";
+"peoplepicker.group.skip" = "省略";
+"peoplepicker.group.done" = "完了";
+"peoplepicker.group.create" = "新規作成";
+
+"peoplepicker.header.people" = "メンバー";
+"peoplepicker.header.services" = "サービス";
+"peoplepicker.services.open_conversation.item" = "会話を始めます";
+"peoplepicker.services.add_service.button" = "サービスを追加";
+"peoplepicker.services.add_service.error.title" = "サービスを追加できません。";
+"peoplepicker.services.add_service.error.default" = "現在、サービスはご利用いただけません。";
+"peoplepicker.services.add_service.error.full" = "会話数が上限に達しました。";
+
+"peoplepicker.title.create_conversation" = "グループを作成します";
+"peoplepicker.title.add_to_conversation" = "Add participants";
+
+"peoplepicker.no_contacts_title" = "連絡先がありません";
+
+"peoplepicker.no_matching_results_title" = "結果はありません";
+"peoplepicker.no_matching_results_message" = "メールアドレスを正確に入力します";
+
+"peoplepicker.no_matching_results.action.send_invite" = "招待状を送信します";
+"peoplepicker.no_matching_results.action.share_contacts" = "連絡先を共有します";
+
+"peoplepicker.no_matching_results_provide_valid_email" = "有効なメール アドレスを入力してください";
+"peoplepicker.no_matching_results_after_address_book_upload_title" = "結果はありません";
+"peoplepicker.no_matching_results_services_title" = "Services are helpers that can improve your workflow. To enable them, ask your administrator.";
+"peoplepicker.no_matching_results_services_admin_title" = "Services are helpers that can improve your workflow.";
+"peoplepicker.no_matching_results_services_manage_services_title" = "Manage Services";
+/* This sentence ends with button title, contained in peoplepicker.no_matching_results_after_address_book_upload_button */
+"peoplepicker.no_matching_results_after_address_book_upload_message" = "メールアドレスを正確に入力します";
+/*  */
+"peoplepicker.no_matching_results_after_address_book_upload_button" = "連絡先を共有します";
+
+"peoplepicker.share_contacts.no_results.title" = "名前またはメールアドレスで見つける";
+
+"peoplepicker.send_invitation.dialog.title" = "招待状を送信しました";
+"peoplepicker.send_invitation.dialog.message" = "2週間使用できます。\n期限が切れた時は新しいものを送ります";
+"peoplepicker.send_invitation.dialog.ok" = "OK";
+
+"peoplepicker.invite_more_people" = "さらに招待する";
+"peoplepicker.invite_team_members" = "チームに招待する";
+"peoplepicker.quick-action.open-conversation" = "開く";
+"peoplepicker.quick-action.create-conversation" = "グループを作成します";
+"peoplepicker.quick-action.create-guest-room" = "ゲストルームを作成する";
+"peoplepicker.quick-action.admin-services" = "Manage Services";
+
+"add_participants.all_contacts_added" = "全員います";
+
+"add_participants.alert.title" = "The group is full";
+"add_participants.alert.message.new_conversation" = "グループ会話には %d 人まで参加することができます。";
+"add_participants.alert.message.existing_conversation" = "グループ会話には %1$d 人まで参加することができます。あと %2$d 人が参加できます。";
+
+// Contacts UI
+"contacts_ui.search_placeholder" = "名前で検索します";
+"contacts_ui.invite_others" = "他の人を招待します";
+"contacts_ui.name_in_contacts" = "連絡先に %@";
+"contacts_ui.connection_request" = "つながりをリクエストする";
+"contacts_ui.action_button.invite" = "招待";
+"contacts_ui.action_button.open" = "開く";
+"contacts_ui.invite_sheet.cancel_button_title" = "キャンセル";
+"contacts_ui.notification.invitation_sent" = "招待状を送信しました";
+"contacts_ui.notification.invitation_failed" = "招待状を送信できませんでした";
+"contacts_ui.title" = "友達を招待する";
+
+"conversation_list.empty.all_archived.message" = "全てアーカイブ済み";
+"conversation_list.empty.no_contacts.message" = "会話を開始またはグループを作成します。";
+
+
+// Conversation List Indicator
+"conversation_list.right_accessory.join_button.title" = "参加する";
+"conversation_list.header.self_team.accessibility_value" = "%@ のアカウント";
+"conversation_list.header.self_team.accessibility_value.inactive" = "タップしてアクティブにする";
+"conversation_list.header.self_team.accessibility_value.active" = "有効";
+"conversation_list.header.self_team.accessibility_value.has_new_messages" = "新しいメッセージ";
+
+// Conversation List Data Usage Permission Dialog
+"conversation_list.data_usage_permission_alert.title" = "Help us make Wire better";
+"conversation_list.data_usage_permission_alert.message" = "I agree that Wire may create and use anonymous usage and error reports to improve the Wire App. I can revoke this consent at any time.";
+"conversation_list.data_usage_permission_alert.disagree" = "いいえ";
+"conversation_list.data_usage_permission_alert.agree" = "I Agree";
+
+// Profile Header View
+"conversation.connection_view.in_address_book" = "連絡先";
+
+// Conversation list voiceover accessibility
+"conversation_list.voiceover.open_conversation.hint" = "会話を始めます";
+"conversation_list.voiceover.status.pending_connection" = "保留中";
+"conversation_list.voiceover.status.active_call" = "アクティブな通話";
+"conversation_list.voiceover.status.missed_call" = "不在着信";
+"conversation_list.voiceover.status.pause_media" = "一時停止";
+"conversation_list.voiceover.status.play_media" = "再生";
+"conversation_list.voiceover.status.silenced" = "マナーモード";
+"conversation_list.voiceover.status.typing" = "入力中";
+"conversation_list.voiceover.status.ping" = "ping";
+"conversation_list.voiceover.status.mention" = "you are mentioned";
+"conversation_list.voiceover.status.reply" = "reply";
+"conversation_list.voiceover.bottom_bar.archived_button.label" = "アーカイブ済み";
+"conversation_list.voiceover.bottom_bar.archived_button.hint" = "アーカイブ済み会話一覧";
+"conversation_list.voiceover.bottom_bar.contacts_button.label" = "連絡先";
+"conversation_list.voiceover.bottom_bar.contacts_button.hint" = "Wire上で人を検索";
+"conversation_list.voiceover.bottom_bar.compose_button.label" = "作成";
+"conversation_list.voiceover.bottom_bar.compose_button.hint" = "メッセージを作成し、後で保存する";
+"conversation_list.voiceover.bottom_bar.camera_button.label" = "カメラ";
+"conversation_list.voiceover.bottom_bar.camera_button.hint" = "写真を撮影してすぐ送信";
+"conversation_list.voiceover.unread_messages.hint" = "未読メッセージがあります";
+
+// Archived List
+"archived_list.title" = "アーカイブ";
+
+// Add contact tool tip
+"tool_tip.contacts.title" = "ここから会話を始めます";
+"tool_tip.contacts.message" = "会話を始めます。プライベートに、またはグループで通話、メッセージ、シェアします。";
+
+// "Knows" subtitle in cell: "Knows Indrek", "Knows Indrek and Jane", "Knows Indrek and 5 others"
+"peoplepicker.suggested.knows_one" = "%@を知っています";
+"peoplepicker.suggested.knows_two" = "%@と%@を知っています";
+"peoplepicker.hide_search_result" = "隠す";
+"peoplepicker.hide_search_result_progress" = "隠しています...";
+
+"send_invitation.subject" = "Wireで繋がります";
+"send_invitation.text" = "私はWireにいます。%@ で検索するか、get.wire.com. にアクセスしてください";
+"send_invitation_no_email.text" = "私はWireにいます。https://get.wire.com にアクセスして私とつながりましょう。";
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++x
+// In-app notifications (chat heads)
+"notifications.shared_a_photo" = "写真を共有します";
+"notifications.pinged" = "ping しました";
+"notifications.sent_file" = "ファイルを共有します";
+"notifications.sent_location" = "場所を共有します";
+"notifications.sent_video" = "ビデオを共有します";
+"notifications.sent_audio" = "音声を共有します";
+"notifications.in_conversation" = "%@%@";
+"notifications.this_conversation" = "%@はこの会話に参加しています";
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++
+// List (labels) - Needs to be revised with updated guidance
+"list.title" = "会話";
+"list.archived_conversations" = "アーカイブ";
+"list.archived_conversations_close" = "アーカイブして閉じます";
+
+"conversation.voiceover.verified" = "認証済み";
+
+"conversation.status.typing" = "メッセージを入力中";
+"conversation.status.typing.group" = "%@: メッセージの入力中";
+"conversation.status.silenced" = "ミュート";
+"conversation.status.poor_connection" = "Poor connection";
+"conversation.status.blocked" = "ブロック";
+
+"conversation.status.message.text" = "%@";
+"conversation.status.message.link" = "リンクを共有";
+"conversation.status.message.image" = "写真が共有されました";
+"conversation.status.message.location" = "場所を共有しました";
+"conversation.status.message.audio" = "音声メッセージが共有されました";
+"conversation.status.message.video" = "ビデオを共有しました";
+"conversation.status.message.file" = "ファイルが共有されました";
+"conversation.status.message.knock" = "Ping されました";
+"conversation.status.message.missedcall" = "不在着信";
+"conversation.status.message.missedcall.groups" = "Missed call from %@";
+"conversation.status.message.mention" = "%@";
+"conversation.status.message.reply" = "%@";
+"conversation.status.message.ephemeral" = "Sent a message";
+"conversation.status.message.ephemeral.group" = "Someone sent a message";
+"conversation.status.message.ephemeral.mention" = "Mentioned you";
+"conversation.status.message.ephemeral.mention.group" = "Someone mentioned you";
+"conversation.status.message.ephemeral.reply" = "Replied to your message";
+"conversation.status.message.ephemeral.reply.group" = "Someone replied to your message";
+"conversation.status.message.ephemeral.knock" = "Ping されました";
+"conversation.status.message.ephemeral.knock.group" = "Someone pinged";
+
+"conversation.status.unsent" = "⚠️ 未送信メッセージ";
+"conversation.status.you" = "あなた";
+"conversation.status.someone" = "Someone";
+"conversation.status.added_multiple" = "追加された人";
+"conversation.status.you_was_added" = "%@はあなたを追加しました";
+"conversation.status.added_users" = "%@は%@を追加しました";
+"conversation.status.joined" = "%@ 参加済";
+"conversation.status.removed_multiple" = "削除された人";
+"conversation.status.you_were_removed" = "あなたは削除されました";
+"conversation.status.you_left" = "あなたは退出しました";
+"conversation.status.started_conversation" = "%@ 会話を始めました";
+"conversation.status.removed_users" = "%@は%@を削除しました";
+"conversation.status.everyone_left" = "全員退出しました";
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Compose Entry Point
+
+"compose.contact.title" = "会話";
+"compose.message.title" = "メッセージ";
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Conversation
+"conversation.invite_more_people.title" = "言葉を広めよう！";
+"conversation.invite_more_people.description" = "この会話に人を追加します";
+"conversation.invite_more_people.explanation_url" = "サポートアドレス https://support.wire.com";
+"conversation.invite_more_people.button_title" = "友達を追加";
+
+// Conversation names
+"conversation.displayname.emptygroup" = "誰もいないグループ";
+
+"conversation.input_bar.verified" = "検証する";
+"conversation.input_bar.placeholder" = "メッセージを入力します";
+"conversation.input_bar.placeholder_ephemeral" = "タイマーメッセージ";
+
+"conversation.input_bar.audio_message.tooltip.pull_send" = "上にスワイプして送信";
+"conversation.input_bar.audio_message.tooltip.tap_send" = "タップして送信";
+"conversation.input_bar.audio_message.too_long.title" = "録音を停止";
+"conversation.input_bar.audio_message.too_long.message" = "音声メッセージは %@ に制限されます。";
+
+"conversation.input_bar.audio_message.too_long_size.message" = "音声メッセージのファイルサイズ上限は %@ です。";
+
+"conversation.input_bar.audio_message.send" = "送信";
+
+"conversation.input_bar.audio_message.keyboard.record_tip" = "タップして録音を開始します、その後  %@  できます。";
+"conversation.input_bar.audio_message.keyboard.filter_tip" = "上記のフィルターを選択します。";
+
+"conversation.call.many_participants_confirmation.title" = "通話を始める";
+"conversation.call.many_participants_confirmation.message" = "%d 人を呼び出す";
+"conversation.call.many_participants_confirmation.call" = "通話";
+
+"conversation.connection_view.in_address_book" = "連絡先";
+
+"conversation.input_bar.shortcut.send" = "メッセージを送信";
+"conversation.input_bar.shortcut.newline" = "Insert line break";
+"conversation.input_bar.shortcut.edit_last_message" = "最後のメッセージを編集";
+"conversation.input_bar.shortcut.cancel_editing_message" = "キャンセル";
+
+"conversation.input_bar.message_too_long.title" = "メッセージが長すぎます";
+"conversation.input_bar.message_too_long.message" = "%d 文字までメッセージを送信することができます。";
+
+"conversation.create.group_name.title" = "グループを作成します";
+"conversation.create.group_name.placeholder" = "グループ名";
+"conversation.create.guidance.empty" = "１文字以上";
+"conversation.create.guidance.toolong" = "文字が多すぎます";
+"conversation.create.options.title" = "Conversation options";
+"conversation.create.options.subtitle" = "Allow guests: %@, Read receipts: %@";
+"conversation.create.guests.title" = "Allow guests and services";
+"conversation.create.guests.subtitle" = "Open this conversation to services and people outside your team.";
+"conversation.create.receipts.title" = "Read receipts";
+"conversation.create.receipts.subtitle" = "When this is on, people can see when their messages in this conversation are read.";
+
+"conversation.input_bar.ongoing_call_alert.title" = "通話中";
+"conversation.input_bar.ongoing_call_alert.audio.message" = "音声メッセージは通話中に記録できません";
+"conversation.input_bar.ongoing_call_alert.video.message" = "ビデオ通話は通話中に記録できません";
+"conversation.input_bar.ongoing_call_alert.photo.message" = "通話中に写真を撮ることはできません。";
+
+"conversation.guests_present" = "ゲストが存在します";
+"conversation.services_present" = "Services are active";
+"conversation.guests_services_present" = "Guests and services are present";
+"conversation.action.search" = "検索";
+
+// Reply message preview
+"conversation.input_bar.message_preview.image" = "Image";
+"conversation.input_bar.message_preview.location" = "Location";
+"conversation.input_bar.message_preview.video" = "ビデオ";
+"conversation.input_bar.message_preview.audio" = "Audio Message";
+"conversation.input_bar.message_preview.file" = "File";
+"conversation.input_bar.close_reply" = "Cancel reply";
+
+"conversation.input_bar.message_preview.accessibility_description" = "Replying to message: %@";
+"conversation.input_bar.message_preview.accessibility.image_message" = "Image message";
+"conversation.input_bar.message_preview.accessibility.location_message" = "Location message";
+"conversation.input_bar.message_preview.accessibility.video_message" = "Video message";
+"conversation.input_bar.message_preview.accessibility.audio_message" = "Audio message";
+"conversation.input_bar.message_preview.accessibility.file_message" = "File message (%@)";
+"conversation.input_bar.message_preview.accessibility.unknown_message" = "Unknown message";
+"conversation.input_bar.message_preview.accessibility.message_from" = "%@ from %@";
+
+"image_confirmer.confirm" = "OK";
+"image_confirmer.cancel" = "キャンセル";
+"image.add_sketch" = "スケッチを追加";
+"image.edit_image" = "イメージを編集します";
+
+// Camera access
+"camera_access.denied" = "Wireはカメラへアクセスする必要が有ります";
+"video_call.camera_access.denied" = "Wire はカメラへのアクセス権を持っていません。";
+"camera_access.denied.instruction" = "";
+"camera_access.denied.open_settings" = "Wireの設定で有効にします";
+
+// Camera and photos access, keyboard
+"keyboard_photos_access.denied.keyboard.settings" = "設定";
+"keyboard_photos_access.denied.keyboard.camera_and_photos" = "\"Wire\"が カメラおよび写真へのアクセスを求めています。"; // split text on two lines for a better text balance
+"keyboard_photos_access.denied.keyboard.photos" = "\"Wire\"が 写真へのアクセスを求めています。";
+"keyboard_photos_access.denied.keyboard.camera" = "\"Wire\"が カメラへのアクセスを求めています。";
+"keyboard_photos_access.denied.keyboard.ongoing_call" = "カメラは、ビデオ通話中にアクセスできません。";
+
+// Camera Controls
+"camera_controls.aeaf_lock" = "AE/AF ロック";
+
+// Location
+"location.send_button.title" = "送信";
+"location.unauthorized_alert.title" = "位置情報サービスを有効にします。";
+"location.unauthorized_alert.message" = "位置情報を送信するには、位置情報サービスを有効にして、Wireが位置情報にアクセス出来るようにする必要が有ります。";
+"location.unauthorized_alert.cancel" = "キャンセル";
+"location.unauthorized_alert.settings" = "設定";
+
+// Twitter
+"twitter_status.on_twitter" = "%@ はツイッターにいます";
+
+// Ephemeral message
+"input.ephemeral.timeout.none" = "オフ";
+"input.ephemeral.title" = "メッセージが消えるまでの時間を設定する";
+
+// System messages
+"content.system.you_nominative" = "あなた";
+"content.system.you_dative" = "あなた";
+"content.system.and_you_dative" = "あなたと";
+"content.system.you_accusative" = "あなた";
+
+"content.system.continued_conversation" = "%@と会話を始めます";
+"content.system.started_conversation.truncated_people" = "%@ と";
+"content.system.started_conversation.truncated_people.others" = "その他 %@";
+"content.system.started_conversation.complete_team" = "すべてのチーム メンバー";
+"content.system.started_conversation.complete_team.guests" = "すべてのチーム メンバーと、 %@ ゲスト";
+
+"content.system.other_started_conversation" = "%@と%@は会話を始めました";
+"content.system.you_started_conversation" = "%@と会話を始めました";
+
+"content.system.you_added_participant" = "%@を追加しました";
+"content.system.other_added_participant" = "%@は%@を追加しました";
+"content.system.other_added_you" = "%@はあなたを追加しました";
+
+"content.system.participants_you" = "あなた";
+"content.system.participants_1_other" = "%@と%@";
+"content.system.other_left" = "%@が退出しました";
+"content.system.you_left" = "あなたは退出しました";
+"content.system.other_removed_other" = "%@は%@を削除しました";
+"content.system.other_removed_you" = "%@はあなたを削除しました";
+"content.system.you_removed_other" = "あなたは%@を削除しました";
+
+"content.system.services.warning" = "Services have access to the content of this conversation";
+
+// New conversation participants added / removed / started system message
+
+"content.system.conversation.other.started" = "%@と%@は会話を始めました";
+"content.system.conversation.other.added" = "%@は%@を追加しました";
+"content.system.conversation.other.removed" = "%@は%@を削除しました";
+"content.system.conversation.other.left" = "%@が退出しました";
+
+"content.system.conversation.you.started" = "%@と%@は会話を始めました";
+"content.system.conversation.you.added" = "%@は%@を追加しました";
+"content.system.conversation.you.removed" = "%@は%@を削除しました";
+"content.system.conversation.you.left" = "%@が退出しました";
+"content.system.conversation.team.member-leave" = "%@ がチームから削除されました";
+"content.system.conversation.guest.joined" = "%@ 参加済";
+
+"content.system.conversation.invite.title" = "Services and people outside your team can join this conversation.";
+"content.system.conversation.invite.button" = "招待する";
+
+"content.system.other_renamed_conv_to_nothing" = "%@が会話の名前を削除しました";
+"content.system.you_renamed_conv_to_nothing" = "あなたは会話の名前を削除しました";
+"content.system.pending_message_timestamp" = "送信中…";
+"content.system.message_sent_timestamp" = "送信済み";
+"content.system.message_delivered_timestamp" = "配信済み";
+"content.system.message_read_timestamp" = "Seen";
+"content.system.failedtosend_message_timestamp" = "送信できませんでした";
+"content.system.failedtosend_message_timestamp_resend" = "再送する";
+"content.system.failedtosend_message_timestamp_delete" = "削除";
+"content.system.like_tooltip" = "タップしていいね！";
+"content.system.deleted_message_prefix_timestamp" = "削除済: %@";
+"content.system.edited_message_prefix_timestamp" = "編集済: %@";
+"content.system.connecting_to" = "%@につながり、会話を始めます";
+"content.system.connected_to" = "%@につながり、会話をはじめます";
+"content.system.other_wanted_to_talk" = "%@ からの着信";
+"content.system.you_wanted_to_talk" = "あなたの発信";
+"content.system.ephemeral_time_remaining" = "%@が退出しました";
+
+"content.system.you_started" = "あなた";
+"content.system.this_device" = "このデバイス";
+
+"content.system.call.you" = "あなた";
+"content.system.call.called" = "%@ からの着信";
+"content.system.call.called-you" = "%@ からの着信";
+
+"content.system.renamed_conv.title" = "%@が会話に名前を付けました";
+"content.system.renamed_conv.title-you" = "%@が会話に名前を付けました";
+"content.system.renamed_conv.title.you" = "あなた";
+
+"content.system.conversation.with_name.title" = "%@ が会話を開始しました。";
+"content.system.conversation.with_name.title-you" = "%@ が会話を開始しました。";
+
+"content.system.conversation.with_name.participants" = "と";
+
+"content.system.message_timer_changes" = "%@ はタイマーメッセージを %@ に設定しました。";
+"content.system.message_timer_changes-you" = "%@ はタイマーメッセージを %@ に設定しました。";
+
+"content.system.message_timer_off" = "%@ が タイマーメッセージをオフにしました";
+"content.system.message_timer_off-you" = "%@ が タイマーメッセージをオフにしました";
+
+// read receipt
+
+"content.system.message_read_receipt_on" = "%@ turned read receipts on for everyone";
+"content.system.message_read_receipt_on-you" = "%@ turned read receipts on for everyone";
+
+"content.system.message_read_receipt_off" = "%@ turned read receipts off for everyone";
+"content.system.message_read_receipt_off-you" = "%@ turned read receipts off for everyone";
+
+"content.system.message_read_receipt_on_add_to_group" = "Read receipts are on";
+
+
+"content.system.reactivated_device" = "あなたは %@ を再び利用しています。いままでのメッセージはここには表示されません。";
+
+"content.system.new_device" = "新しいデバイス";
+"content.system.started_using" = "使用を始めます";
+"content.system.is_verified" = "すべてのフィンガープリントは確認済みです";
+
+"content.system.new_users" = "新しいユーザーが参加しました。";
+"content.system.verify_devices" = "デバイスを認証する";
+
+"content.system.unverified" = "%@%@デバイスの一つは認証されませんでした。"; // example "You unverified one of Jule’s devices"
+"content.system.your_devices" = "あなたのデバイス";
+"content.system.other_devices" = "%@ のデバイス";
+
+"content.system.missing_messages.title" = "しばらくの間、このデバイスでWireを利用していなかったため、いくつかのメッセージがここに表示されない可能性があります。";
+"content.system.missing_messages.subtitle_start" = "同時に";
+
+"content.system.cannot_decrypt" = "%@からのメッセージは受信されませんでした。";
+
+"content.system.cannot_decrypt.you_part" = "あなた";
+"content.system.cannot_decrypt.why_part" = "なぜ？";
+
+"content.system.cannot_decrypt.identity" = "%@のデバイスIDが変更されました。配信不能なメッセージです。";
+"content.system.cannot_decrypt.identity.you_part" = "あなたの";
+"content.system.cannot_decrypt.identity.otherUser_part" = "%@ のデバイス"; // possessive apostrophe - might differ in different languages
+"content.system.cannot_decrypt.identity.why_part" = "もっと知る";
+"content.system.cannot_decrypt.otherDevice_part" = "(デバイス %@)"; // example " (device d1b23c54f34a)".
+// Full sentence: "A message from %@ was not received. [...] (device d1b23c54f34a). This is a debug information.
+
+"content.system.unknown_message.body" = "Wire の古いバージョンを使っているため、このメッセージを表示できません。";
+
+"content.file.uploading" = "アップロード中...";
+"content.file.downloading" = "ダウンロード中…";
+"content.file.upload_failed" = "アップロードに失敗しました";
+"content.file.upload_cancelled" = "アップロードがキャンセルされました";
+"content.file.upload_video" = "ビデオ";
+"content.file.take_video" = "ビデオを録画";
+
+"content.file.save_video" = "保存";
+"content.file.save_audio" = "保存";
+"content.image.save_image" = "保存";
+
+"content.message.delete" = "削除";
+"content.message.save" = "保存";
+"content.message.resend" = "再送する";
+
+"content.message.delete_ellipsis" = "削除...";
+
+"content.message.like" = "いいね！";
+"content.message.unlike" = "いいね！を取消す";
+"content.message.forward" = "共有";
+"content.message.go_to_conversation" = "開く";
+"content.message.forward.to" = "検索...";
+"content.message.open" = "開く";
+"content.message.copy" = "コピー";
+"content.message.download" = "Download";
+"content.message.details" = "詳細";
+
+// Reply
+"content.message.reply" = "返信";
+"content.message.original_label" = "Original message";
+"content.message.reply.original_timestamp.date" = "Original message from %@";
+"content.message.reply.original_timestamp.time" = "Original message from %@";
+"content.message.reply.broken_message" = "You cannot see this message.";
+"content.message.reply.edited_message" = "Edited";
+
+"content.message.open_link_alert.title" = "リンクを開く";
+"content.message.open_link_alert.message" = "あなたは、%@ にアクセスしようとしています";
+"content.message.open_link_alert.open" = "開く";
+
+"content.message.audio_message.accessibility" = "Play the audio message";
+
+"content.reactions_list.likers" = "いいね！しました";
+
+"content.file.too_big" = "%@までのファイルを送信できます。";
+// Someone pinged
+"content.ping.text" = "%@ Pingしました";
+"content.ping.text-you" = "%@ Pingしました";
+
+// Current user pinged
+"content.ping.text.you" = "あなた";
+
+// Inline Player
+"content.player.unable_to_play" = "トラックを再生できません";
+
+// Connecting (NEW IMPLEMENTATION, REVIEW LATER)
+"connection_request.title" = "%@とつながる"; // check UPPERCASE implementation in code
+"missive.connection_request.default_message" = "こんにちは。%@\nWireでつながりましょう。\n%@";
+
+"connection_request.send_button_title" = "接続";
+"inbox.connection_request.connect_button_title" = "接続";
+"inbox.connection_request.ignore_button_title" = "無視";
+
+// Save image errors
+"library.alert.permission_warning.title" = "\"Wire\"が 写真へのアクセスを求めています。";
+"library.alert.permission_warning.restrictions.explaination" = "機能制限が有効になっているため、Wire はあなたのライブラリにアクセスできません。";
+"library.alert.permission_warning.not_allowed.explaination" = "設定に移動して、Wire が写真にアクセスすることを許可してください。";
+
+// Voice
+"voice.status.one_to_one.incoming" = "%@\nを呼出中";
+"voice.status.group_call.incoming" = "%@\nから呼出中";
+"voice.status.one_to_one.outgoing" = "%@\nから呼出中";
+"voice.status.joining" = "%@に接続中";
+"voice.status.leaving" = "%@\n通話終了";
+"voice.status.video_not_available" = "ビデオ通話がオフになっています";
+"voice.status.low_connection" = "接続不良";
+"voice.network_error.title" = "インターネット接続がありません";
+"voice.status.cbr" = "固定ビットレート";
+"voice.network_error.body" = "オンラインにしてから通話する必要が有ります。接続を確認してもう一度やり直して下さい。";
+"voice.degradation.new_self_device" = "新しいデバイスを使い始めました";
+"voice.degradation.new_user_device" = "%@が新しいデバイスを使い始めました。";
+"voice.degradation_outgoing.prompt" = "さらに電話をかけますか？";
+"voice.degradation_incoming.prompt" = "さらに電話をうけますか？";
+"voice.accept_button.title" = "承諾";
+"voice.decline_button.title" = "辞退";
+"voice.hang_up_button.title" = "電話を切る";
+"voice.mute_button.title" = "ミュート";
+"voice.video_button.title" = "ビデオ";
+"voice.flip_video_button.title" = "カメラ切替";
+"voice.speaker_button.title" = "スピーカー";
+"voice.cancel_button.title" = "キャンセル";
+"voice.call_button.title" = "通話";
+"voice.end_call_button.title" = "通話を終了";
+
+"voice.alert.call_in_progress.title" = "通話中です";
+"voice.alert.call_in_progress.message" = "同時にできる通話は一つのみです";
+"voice.alert.call_in_progress.confirm" = "OK";
+
+"voice.alert.microphone_warning.title" = "Wireはマイクにアクセスする必要が有ります";
+"voice.alert.microphone_warning.explanation" = "Wireの設定で有効にして下さい";
+
+"voice.alert.camera_warning.title" = "Wireはカメラへのアクセスする必要が有ります";
+"voice.alert.camera_warning.explanation" = "設定に移動して、Wireがカメラにアクセスすることを有効にして下さい";
+
+"voice.top_overlay.tap_to_return" = "タップして通話に戻る";
+"voice.top_overlay.accessibility_title" = "通話中";
+
+// Voice New
+
+"call.status.connecting" = "接続中...";
+"call.status.incoming.user" = "%@ を呼出中...";
+"call.status.incoming" = "発信中...";
+"call.status.outgoing" = "呼び出し中...";
+"call.status.outgoing.user" = "Calling %@…";
+"call.status.reconnecting" = "再接続…";
+"call.status.terminating" = "通話終了中...";
+"call.status.constant_bitrate" = "固定ビットレート";
+
+"call.participants.show_all" = "全てを表示 (%@)";
+"call.participants.list.title" = "参加者";
+
+"call.video.paused" = "ビデオ停止中";
+
+"call.video.too_many.alert.title" = "ビデオ通話相手が多すぎます";
+"call.video.too_many.alert.message" = "ビデオ通話は４人以下のグループで利用できます。";
+
+"call.degraded.alert.title" = "新しいデバイス";
+"call.degraded.alert.message.self" = "新しいデバイスを使い始めました";
+"call.degraded.alert.message.user" = "%@が新しいデバイスを使い始めました。";
+"call.degraded.alert.message.unknown" = "新しいデバイスを使い始めた人がいます";
+"call.degraded.alert.action.continue" = "とにかく電話をする";
+
+"call.alert.ongoing.alert_title" = "This will end your other call.";
+
+"call.alert.ongoing.start.message" = "他の会話で通話中です。\nここで呼び出すと、その他の通話は終了します。";
+"call.alert.ongoing.join.message" = "他の会話で通話中です。\nこの呼び出しに参加すると、その他の通話は終了します。";
+"call.alert.ongoing.start.button" = "とにかく電話をする";
+"call.alert.ongoing.join.button" = "Join anyway";
+
+// Call Actions (accessibility)
+
+"call.announcement.incoming" = "%@ からの着信";
+"call.actions.label.toggle_mute_on" = "ミュート";
+"call.actions.label.toggle_mute_off" = "ミュート解除します。";
+"call.actions.label.flip_camera" = "カメラを切り替える";
+"call.actions.label.toggle_speaker_on" = "外部スピーカー有効";
+"call.actions.label.toggle_speaker_off" = "外部スピーカー無効化";
+"call.actions.label.accept_call" = "通話をうけいれる";
+"call.actions.label.reject_call" = "通話拒否";
+"call.actions.label.terminate_call" = "通話を終了";
+"call.actions.label.toggle_video_on" = "カメラをオンにする";
+"call.actions.label.toggle_video_off" = "カメラをオフにする";
+"call.actions.label.switch_to_back_camera" = "背面カメラに切り替える";
+"call.actions.label.switch_to_front_camera" = "フロントカメラに切り替える";
+"call.actions.label.minimize_call" = "通話を最小化";
+"call.actions.label.make_audio_call" = "音声通話開始";
+"call.actions.label.make_video_call" = "ビデオ通話開始";
+"call.actions.label.join_call" = "通話に参加";
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Profile and Participants
+
+"participants.add_people_button_title" = "追加します";
+"participants.avatar.guest.title" = "ゲスト";
+
+"participants.title" = "詳細";
+"participants.all.title" = "メンバー";
+"participants.section.participants" = "人 (%d)";
+"participants.section.services" = "サービス (%d)";
+"participants.section.settings" = "オプション";
+"participants.footer.add_title" = "参加者を追加";
+"participants.section.name.footer" = "Up to %1$d participants can join a group conversation. Video calls work with up to %2$d other people and you.";
+
+// Meta Menu
+"meta.menu.rename" = "名前の変更";
+"meta.menu.leave" = "グループを退出...";
+"meta.menu.archive" = "アーカイブ";
+"meta.menu.unarchive" = "解答する";
+"meta.menu.delete" = "コンテンツ削除...";
+"meta.menu.silence.mute" = "ミュート";
+"meta.menu.silence.unmute" = "ミュート解除します。";
+"meta.menu.cancel" = "キャンセル";
+"meta.menu.cancel_connection_request" = "リクエストをキャンセル...";
+"meta.menu.mark_unread" = "未読にする";
+"meta.menu.mark_read" = "既読にする";
+"shortcut.mark_all_as_read.title" = "すべて既読にする";
+"meta.menu.configure_notifications" = "Notifications…";
+
+// Delete conversation
+"meta.menu.delete_content.dialog_title" = "コンテンツを削除しますか?";
+"meta.menu.delete_content.dialog_message" = "あなたのすべてのデバイスから会話履歴をクリアします。";
+"meta.menu.delete_content.leave_as_well_message" = "会話からも退室する";
+"meta.menu.delete_content.button_cancel" = "キャンセル";
+"meta.menu.delete_content.button_delete" = "削除";
+"meta.menu.delete_content.button_delete_and_leave" = "削除して退出";
+
+// Configure conversation notifications
+"meta.menu.configure_notification.dialog_message" = "Notify me about:";
+"meta.menu.configure_notification.button_everything" = "Everything";
+"meta.menu.configure_notification.button_mentions_and_replies" = "Mentions and Replies";
+"meta.menu.configure_notification.button_nothing" = "Nothing";
+"meta.menu.configure_notification.button_cancel" = "キャンセル";
+
+// Leave conversation
+"meta.leave_conversation_dialog_title" = "会話から退室しますか？";
+"meta.leave_conversation_dialog_message" = "参加者に通知されたうえで、あなたのリストから会話が削除されます。";
+"meta.leave_conversation.delete_content_as_well_message" = "コンテンツも削除されます";
+"meta.leave_conversation_button_cancel" = "キャンセル";
+"meta.leave_conversation_button_leave" = "離れる";
+"meta.leave_conversation_button_leave_and_delete" = "退出してアカウントを削除する";
+
+// Conversation Degraded (security level lowered)
+"meta.degraded.degradation_reason_message.singular" = "%@が新しいデバイスを使い始めました。";
+"meta.degraded.degradation_reason_message.plural" = "%@が新しいデバイスを使い始めました。";
+"meta.degraded.dialog_message" = "まだメッセージを送信しますか？";
+"meta.degraded.show_device_button" = "デバイスを表示する。";
+"meta.degraded.send_anyway_button" = "このまま送信";
+"meta.degraded.cancel_sending_button" = "キャンセル";
+
+// Remove from conversation dialogue
+"profile.remove_dialog_title" = "削除しますか?";
+"profile.remove_dialog_message" = "%@ は、この会話でメッセージを送受信することができません。";
+"profile.remove_dialog_button_cancel" = "キャンセル";
+"profile.remove_dialog_button_remove" = "削除";
+
+// Block dialog
+"profile.block_dialog.title" = "ブロックしますか?";
+"profile.block_dialog.message" = "%@ は、あなたにコンタクトをすることやグループ会話にあなたを追加することができません。";
+"profile.block_dialog.button_cancel" = "キャンセル";
+"profile.block_dialog.button_block" = "ブロック";
+
+// Delete message dialog
+"message.delete_dialog.message" = "この操作は元に戻すことができません。";
+"message.delete_dialog.action.cancel" = "キャンセル";
+"message.delete_dialog.action.hide" = "削除します";
+"message.delete_dialog.action.delete" = "削除します";
+
+// Edit message
+"message.menu.edit.title" = "編集";
+
+// Accept connection request
+"profile.connection_request_dialog.title" = "許可しますか？";
+"profile.connection_request_dialog.message" = "%@とのつながって、会話を始める。";
+"profile.connection_request_dialog.button_cancel" = "放置";
+"profile.connection_request_dialog.button_connect" = "接続";
+
+// Cancel connection request
+"profile.cancel_connection_request_dialog.title" = "リクエストを取り消しますか？";
+"profile.cancel_connection_request_dialog.message" = "%@への接続リクエストを削除します。";
+"profile.cancel_connection_request_dialog.button_no" = "いいえ";
+"profile.cancel_connection_request_dialog.button_yes" = "はい";
+
+// Unblock button
+"profile.block_button_title" = "ブロック...";
+"profile.unblock_button_title" = "ブロック解除中...";
+
+"profile.cancel_connection_button_title" = "リクエストをキャンセルします";
+"profile.connection_request_state.blocked" = "ブロックしています";
+"profile.create_conversation_button_title" = "グループを作成します";
+"profile.open_conversation_button_title" = "会話を始めます";
+
+"profile.read_receipts_enabled_memo.header" = "YOU HAVE ENABLED READ RECEIPTS";
+"profile.read_receipts_disabled_memo.header" = "YOU HAVE DISABLED READ RECEIPTS";
+"profile.read_receipts_memo.body" = "If both sides turn on read receipts, you can see when messages are read.\nYou can change this option in your account settings.";
+
+// User Details
+"profile.details.title" = "詳細";
+"profile.details.guest" = "ゲスト";
+
+"profile_view.accessibility.handle" = "ユーザーネーム";
+"profile_view.accessibility.name" = "表示名";
+"profile_view.accessibility.team_name" = "チーム名";
+
+// Device list
+"profile.devices.title" = "デバイス";
+"profile.devices.fingerprint_message_unencrypted" = "%@は古いバージョンのWireを使用しています。端末は表示されません。";
+"profile.devices.fingerprint_message.title" = "Wire はそれぞれのデバイスに固有のフィンガープリントを付与します。それを %@ と比較して、会話を確認します。";
+"profile.devices.fingerprint_message.link" = "なぜ会話を確認するのですか? _";
+
+// Device detail
+"profile.devices.detail.verify_message" = "%@のデバイスに表示されるフィンガー プリントと一致することを確認します。";
+"profile.devices.detail.verify_message.link" = "どうすればいいですか?";
+"profile.devices.detail.show_my_device.title" = "自分のデバイスのフィンガープリントを表示";
+"device.verified" = "検証済み";
+"device.not_verified" = "未確認";
+"device.class.desktop" = "PC";
+"device.class.tablet" = "タブレット";
+"device.class.phone" = "携帯電話";
+"profile.devices.detail.reset_session.title" = "セッションをリセットする";
+
+// Bot
+"participants.services.remove_integration.button" = "連携を削除する";
+
+// Group details
+"group_details.guest_options_cell.title" = "Guests and services";
+"group_details.guest_options_cell.enabled" = "オン";
+"group_details.guest_options_cell.disabled" = "オフ";
+"group_details.timeout_options_cell.title" = "タイマーメッセージ";
+"group_details.notification_options_cell.title" = "通知センター";
+"group_details.notification_options_cell.description" = "You can be notified about everything (including audio and video calls) or only when someone mentions you or replies to one of your messages.";
+"group_details.receipt_options_cell.title" = "Read receipts";
+"group_details.receipt_options_cell.description" = "When this is on, people can see when their messages in this conversation are read.";
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Self profile
+// Options menu contents
+
+"self.settings" = "設定";
+"self.profile" = "プロフィール";
+"self.account" = "アカウント";
+"self.help_center" = "サポート";
+"self.help_center.support_website" = "Wire サポート ウェブサイト";
+"self.help_center.contact_support" = "サポートへの問い合わせ";
+"self.about" = "概要";
+"self.sign_out" = "ログアウト";
+"self.report_abuse" = "悪用を報告する";
+"self.voiceover.label" = "プロフィール";
+"self.voiceover.hint" = "プロファイルと設定を開く";
+"self.new-device.voiceover.label" = "プロファイル, 新規デバイスの追加";
+
+"self.profile.change_user_image.accessibility" = "タップしてプロフィール画像を変更";
+
+"self.add_phone_number" = "電話番号を追加する";
+"self.add_email_password" = "メールアドレスとパスワードを追加";
+
+// About screen
+"about.tos.title" = "利用規約";
+"about.privacy.title" = "プライバシーポリシー";
+"about.license.title" = "ライセンス情報";
+"about.website.title" = "Wire のウェブサイト";
+"about.copyright.title" = "© Wire Swiss GmbH";
+
+// Licenses screen
+"about.license.project_header" = "詳細";
+"about.license.open_project_button" = "View Project Page";
+"about.license.license_header" = "Acknowledgements";
+
+// Self new devices
+"self.new_device_alert.title" = "あなたのアカウントの使用:";
+"self.new_device_alert.message" = "\n%@\n\nもし上のデバイスを知らない場合は、それを削除して、パスワードをリセットしてください。";
+"self.new_device_alert.message_plural" = "\n%@\n\nもしこれらのデバイスを知らない場合は、それを削除して、パスワードをリセットしてください。";
+"self.new_device_alert.manage_devices" = "デバイスを管理";
+"self.new_device_alert.trust_devices" = "OK";
+
+// Settings changed alert
+
+"self.read_receipts_enabled.title" = "You have enabled read receipts";
+"self.read_receipts_disabled.title" = "You have disabled read receipts";
+"self.read_receipts_description.title" = "You can change this option in your account settings.";
+
+// Settings - top level
+"self.settings.create_team.title" = "新しいチームを作成";
+"self.settings.manage_team.title" = "チームを管理する";
+"self.settings.add_team_or_account.title" = "新しいチームまたはアカウント";
+"self.settings.add_account.title" = "アカウントを追加";
+
+"self.settings.add_account.error.title" = "3 つのアカウントがアクティブです";
+"self.settings.add_account.error.message" = "１度に３つのアカウントまでログインできます。新規にログインする為に、１つログアウトしてください。";
+
+"self.settings.switch_account.message" = "A call is active in this account.\nSwitching accounts will hang up the current call.";
+"self.settings.switch_account.action" = "Switch anyway";
+
+// Settings - Account details
+"self.settings.account_section" = "アカウント";
+
+"self.settings.account_details_group.info.title" = "情報";
+"self.settings.account_details_group.personal.title" = "パーソナル";
+
+"self.settings.account_section.name.title" = "名前";
+"self.settings.account_section.email.title" = "メール";
+"self.settings.account_section.phone.title" = "携帯電話";
+"self.settings.account_section.handle.title" = "ユーザーネーム";
+"self.settings.account_section.add_handle.title" = "ユーザーネームを追加する";
+
+"self.settings.account_details_group.info.footer" = "この情報で他の人があなたを見つけることができます。";
+"self.settings.account_details_group.personal.footer" = "この情報は表示されません。";
+
+"self.settings.account_details.remove_device.title" = "デバイスを削除する";
+"self.settings.account_details.key_fingerprint.title" = "重要なフィンガープリント";
+"self.settings.account_details.remove_device.message" = "デバイスを削除するにはパスワードが必要です。";
+"self.settings.account_details.remove_device.password" = "パスワード";
+"self.settings.account_details.remove_device.password.error" = "パスワードが間違っています";
+
+"self.settings.account_appearance_group.title" = "外観";
+
+"self.settings.privacy_section_group.title" = "Privacy";
+"self.settings.enable_read_receipts.title" = "Send read receipts";
+"self.settings.privacy_section_group.subtitle" = "When this is off, you won’t be able to see read receipts from other people.\nThis setting does not apply to group conversations.";
+
+"self.settings.account_picture_group.picture" = "写真";
+"self.settings.account_picture_group.color" = "色";
+
+"self.settings.account_personal_information_group.title" = "個人情報";
+
+"self.settings.account_picture_group.theme" = "ダークテーマ";
+
+"self.settings.device_details.fingerprint.subtitle" = "Wireは各デバイスに固有のフィンガープリントを付与します。これを比較することでお使いのデバイスと会話を確認します。";
+"self.settings.device_details.reset_session.subtitle" = "フィンガープリントが一致しない場合は、セッションをリセットして、会話相手と双方で新しい暗号化キーを生成します。";
+"self.settings.device_details.remove_device.subtitle" = "このデバイスを使用していない場合、このデバイスを削除する。メッセージ履歴はこのデバイスから削除されログアウトされます。";
+"self.settings.device_details.reset_session.success" = "このセッションはリセットされました";
+
+"self.settings.account_details.actions.title" = "アクション";
+
+"self.settings.account_details.delete_account.title" = "アカウントを削除";
+
+"self.settings.account_details.delete_account.alert.title" = "アカウントを削除";
+"self.settings.account_details.delete_account.alert.message" = "EメールまたはSMSをあなたに送信します。リンクに従ってあなたのアカウントを削除してください";
+
+"self.settings.account_details.log_out.alert.title" = "ログアウト";
+"self.settings.account_details.log_out.alert.message" = "このデバイス上のメッセージ履歴が消去されます。";
+
+// Settings - Personal information
+"self.settings.privacy_analytics_section.title" = "使用状況データと障害報告";
+"self.settings.privacy_analytics.title" = "匿名データを共有";
+"self.settings.privacy_analytics_menu.description.title" = "Wire を改善するため、匿名の利用状況のデータとクラッシュレポートを送信します。";
+
+"self.settings.receiveNews_and_offers.title" = "ニュースレターを受け取る";
+"self.settings.receiveNews_and_offers.description.title" = "電子メールで Wireからニュースや製品アップデート情報を受け取る。";
+
+
+
+// Change Username
+
+"self.settings.account_section.handle.change.title" = "ユーザーネーム";
+"self.settings.account_section.handle.change.save" = "保存";
+"self.settings.account_section.handle.change.footer" = "少なくとも２文字。a-z, 0-9, および _ のみが利用できます。";
+"self.settings.account_section.handle.change.footer.unavailable" = "すでに利用されています";
+
+"self.settings.account_section.handle.change.failure_alert.title" = "ユーザーネームを設定できません";
+"self.settings.account_section.handle.change.failure_alert.message" = "ユーザーネームの設定にエラーがありました。再設定してください。";
+
+// Change Email
+
+"self.settings.account_section.email.change.title" = "メール";
+"self.settings.account_section.email.change.save" = "保存";
+
+"self.settings.account_section.email.change.verify.title" = "メール アドレスを確認";
+"self.settings.account_section.email.change.verify.description" = "メールの受信トレイを確認して、手順に従ってください。";
+"self.settings.account_section.email.change.verify.resend" = "%@ に再送";
+
+"self.settings.account_section.email.change.resend.title" = "メールを再送信";
+"self.settings.account_section.email.change.resend.message" = "確認メールが%@ に再送されました。メールボックスを確認し、記載されている手続きを行って。";
+
+// Change Phone Number
+
+"self.settings.account_section.phone_number.change.title" = "電話";
+"self.settings.account_section.phone_number.change.save" = "保存";
+"self.settings.account_section.phone_number.change.remove" = "電話番号を削除する";
+
+"self.settings.account_section.phone_number.change.remove.action" = "電話番号を削除する";
+
+"self.settings.account_section.phone_number.change.verify.save" = "保存";
+"self.settings.account_section.phone_number.change.verify.title" = "認証";
+"self.settings.account_section.phone_number.change.verify.description" = "%@ に送信した認証コードを入力してください";
+
+"self.settings.account_section.phone_number.change.verify.code_placeholder" = "コードを入力する";
+"self.settings.account_section.phone_number.change.verify.resend" = "コードを再送信";
+"self.settings.account_section.phone_number.change.verify.resend_description" = "コードが表示されませんか？\n新しいコードを30秒ごとにリクエストすることができます。";
+
+"self.settings.account_section.phone_number.change.resend.title" = "コードの再送";
+"self.settings.account_section.phone_number.change.resend.message" = "%@ に認証コードを再送しました";
+
+// Chat alerts
+"self.settings.notifications.push_notification.title" = "通知センター";
+"self.settings.notifications.push_notification.toogle" = "メッセージプレビュー";
+"self.settings.notifications.push_notification.footer" = "ロックスクリーンと通知センターでの送信者名およびメッセージ";
+
+"self.settings.notifications.chat_alerts.toggle" = "メッセージ バナー";
+"self.settings.notifications.chat_alerts.footer" = "他の会話での新しいメッセージ";
+
+"self.settings.sound_menu.sounds.title" = "サウンド";
+"self.settings.sound_menu.ringtone.title" = "着信音";
+"self.settings.sound_menu.message.title" = "テキスト 着信音";
+"self.settings.sound_menu.ping.title" = "Ping";
+"self.settings.sound_menu.ringtones.title" = "着信音";
+"self.settings.sound_menu.sounds.wire_sound" = "Wire";
+"self.settings.sound_menu.sounds.none" = "なし";
+
+"self.settings.callkit.title" = "通話";
+"self.settings.callkit.caption" = "iOSで共有する";
+"self.settings.callkit.description" = "Wireの通話履歴をロック画面とiOSの通話履歴に表示します。もしiCloudが有効である場合、通話履歴はAppleに共有されます。";
+
+"self.settings.vbr.title" = "可変ビットレートエンコーディング";
+"self.settings.vbr.description" = "これは通話でのデータ量を削減し、低速なネットワークにおける通話をより良くします。これをオフにすることで固定ビットレートエンコーディングを利用することができます。";
+
+"self.settings.sound_menu.sounds.wire_call" = "Wireコール";
+"self.settings.sound_menu.sounds.wire_message" = "Wireメッセージ";
+"self.settings.sound_menu.sounds.wire_ping" = "Wire Ping";
+
+// By popular demand
+"self.settings.popular_demand.title" = "人気の高い順";
+"self.settings.popular_demand.send_button.title" = "送信ボタン";
+"self.settings.popular_demand.send_button.footer" = "キーボードからの送信を無効にします。";
+
+// Open in
+"self.settings.external_apps.header" = "リンクを開く";
+
+"self.settings.link_options.twitter.title" = "ツイート";
+"self.settings.link_options.maps.title" = "ロケーション";
+"self.settings.link_options.browser.title" = "ブラウザ";
+
+"open_link.twitter.option.default" = "Safari / Twitter";
+"open_link.twitter.option.tweetbot" = "Tweetbot";
+"open_link.twitter.option.twitterrific" = "Twitterrific";
+
+"open_link.maps.option.apple" = "マップ";
+"open_link.maps.option.google" = "Google マップ";
+"open_link.maps.footer" = "場所へのリンクは 常に アップルの [マップ] アプリで開きます。";
+
+"open_link.browser.option.safari" = "Safari";
+"open_link.browser.option.chrome" = "Chrome";
+"open_link.browser.option.firefox" = "Firefox";
+"open_link.browser.option.snowhaze" = "SnowHaze";
+"open_link.browser.option.brave" = "Brave";
+
+// Sound alerts (TO BE UPDPATED)
+"self.settings.sound_menu.title" = "アラートのサウンド";
+"self.settings.sound_menu.no_sounds.title" = "なし";
+"self.settings.sound_menu.all_sounds.title" = "すべて";
+"self.settings.sound_menu.mute_while_talking.title" = "最初のメッセージまたは ping";
+
+// Developer options
+"self.settings.developer_options.title" = "開発者向けオプション";
+"self.settings.apns_logging.title" = "APNS ログ";
+
+// Privacy (visibility) options
+"self.settings.options_menu.title" = "オプション";
+
+"self.settings.privacy_contacts_section.title" = "連絡先";
+"self.settings.privacy_contacts_menu.settings_button.title" = "連絡先の設定を開く";
+"self.settings.privacy_contacts_menu.description_disabled.title" = "これはあなたが友人とつながるを容易にします。私たちはすべての情報を匿名化し、他の第三者と共有することはしません。アクセスを許可するためには、設定>プライバシー>連絡先で設定します。";
+
+"self.settings.privacy_security.lock_app" = "コードでロック";
+"self.settings.privacy_security.lock_app.subtitle.lock_description" = "10 秒後にバックグラウンドで Wire をロックします。";
+"self.settings.privacy_security.lock_app.subtitle.touch_id" = "Touch ID または、パスコードでロック解除します。";
+"self.settings.privacy_security.lock_app.subtitle.face_id" = "Face ID または、パスコードでロック解除します。";
+"self.settings.privacy_security.lock_app.subtitle.none" = "パスコードを入力してロック解除します。";
+
+"self.settings.privacy_security.lock_app.description" = "Wireのロックを解除する";
+
+"self.settings.privacy_security.lock_cancelled.description" = "Touch ID またはパスコードでWireのロックを解除する";
+"self.settings.privacy_security.lock_cancelled.action" = "ロックを解除";
+
+"self.settings.privacy_security.disable_link_previews.title" = "リンク プレビューを作成します。";
+"self.settings.privacy_security.disable_link_previews.footer" = "他ユーザーからのリンクがプレビュー表示されれます";
+
+"self.settings.privacy_analytics_menu.devices.title" = "デバイス";
+
+"self.settings.privacy.clear_history.title" = "履歴をクリア";
+"self.settings.privacy.clear_history.subtitle" = "すべてのあなたの会話の内容が完全に消去されます。";
+
+"self.settings.advanced.title" = "高度";
+"self.settings.advanced.troubleshooting.title" = "トラブルシューティング";
+"self.settings.advanced.troubleshooting.submit_debug.title" = "デバッグ報告を送信";
+"self.settings.advanced.troubleshooting.submit_debug.subtitle" = "この情報は通話の問題をWire が診断するのに役立ます";
+"self.settings.advanced.reset_push_token.title" = "プッシュ通知のトークンをリセットする";
+"self.settings.advanced.reset_push_token.subtitle" = "プッシュ通知に関して問題があった場合、Wireサポートチームはあなたにトークンのリセットを求めることがあります。";
+"self.settings.advanced.reset_push_token_alert.title" = "プッシュトークンがリセットされました。";
+"self.settings.advanced.reset_push_token_alert.message" = "通知は数秒で復元されます。";
+"self.settings.advanced.version_technical_details.title" = "バージョンの技術的詳細";
+
+// data usage permissions options
+"self.settings.account.data_usage_permissions.title" = "データ利用許可";
+
+// Technical Report
+"self.settings.technical_report_section.title" = "テクニカルリポート";
+"self.settings.technical_report.send_report" = "Wireにレポートを送信する";
+"self.settings.technical_report.mail.subject" = "Wire通話のレポート";
+"self.settings.technical_report.include_log" = "詳細なログを含める";
+"self.settings.technical_report.privacy_warning" = "詳細なログは個人情報を含む可能性があります";
+"self.settings.technical_report.no_mail_alert" = "メールクライアントがありません。\"OK\" をタップし、手動で以下にログを送信します: ";
+
+// Password reset
+"self.settings.password_reset_menu.title" = "パスワードをリセット";
+
+// Invite from Settings
+"self.settings.invite_friends.title" = "招待する";
+
+// History backup
+
+"self.settings.conversations.title" = "履歴";
+"self.settings.history_backup.title" = "会話をバックアップする";
+"self.settings.history_backup.description" = "あなたの会話履歴をバックアップして保存します。 これにより、もしデバイスをなくしたり、新しいデバイスに切り替えた場合でも、会話記録をリストアすることができます。\n\nバックアップファイルを守るため、強力なパスワードを選択してください。";
+"self.settings.history_backup.action" = "今すぐバックアップする";
+"self.settings.history_backup.error.title" = "エラー";
+
+"self.settings.history_backup.set_email.title" = "メールアドレスとパスワードを設定します。";
+"self.settings.history_backup.set_email.message" = "会話履歴をバックアップするために、Eメールアドレスとパスワードが必要です。[設定] - [アカウント] から入力してください。";
+
+// History backup password
+
+"self.settings.history_backup.password.title" = "パスワードを設定";
+"self.settings.history_backup.password.cancel" = "キャンセル";
+"self.settings.history_backup.password.next" = "次へ";
+"self.settings.history_backup.password.placeholder" = "8 文字以上";
+"self.settings.history_backup.password.description" = "バックアップは圧縮され、ここで設定したパスワードで暗号化されます。";
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++
+// System status
+"system_status_bar.no_internet.title" = "インターネットがありません";
+"system_status_bar.no_internet.explanation" = "インターネット接続に問題があるようです。インターネット接続を確認してください。";
+"system_status_bar.poor_connectivity.title" = "インターネット接続が遅いため、いまは通話はできません。";
+"system_status_bar.poor_connectivity.explanation" = "音声品質を保証できません。Wi-Fiに接続するか、場所を変えて接続してください。";
+
+// View user profile and options menu & text field validation
+"name.placeholder" = "あなたの氏名";
+"name.guidance.tooshort" = "少なくとも2文字";
+"name.guidance.toolong" = "文字が多すぎます";
+
+"email.placeholder" = "メール";
+"email.guidance.invalid" = "無効なメールアドレス";
+"email.guidance.tooshort" = "メールアドレスが短すぎます";
+"email.guidance.toolong" = "文字が多すぎます";
+
+"password.placeholder" = "パスワード";
+"password.guidance.tooshort" = "8 文字以上";
+"password.guidance.toolong" = "文字が多すぎます";
+
+// Landing screen
+
+"landing.app_name" = "Wire";
+"landing.create_account.title" = "パーソナル";
+"landing.create_account.subtitle" = "アカウントを作成";
+"landing.create_team.title" = "Pro";
+"landing.create_team.subtitle" = "新しいチームを作成";
+"landing.login.hints" = "既にアカウントをお持ちですか？";
+"landing.login.button.title" = "ログイン";
+
+// Create team
+
+"team.name.headline" = "チーム名";
+"team.name.subheadline" = "後でいつでも変更することができます。";
+"team.name.textfield.placeholder" = "チーム名";
+"team.name.textfield.accessibility" = "設定するチーム名";
+"team.name.whatiswireforteams" = "ワイヤでのチームとは何ですか？";
+
+"team.email.headline" = "アカウント";
+"team.email.subheadline" = "業務用メールアドレスを入力してください。";
+"team.email.textfield.placeholder" = "you@yourcompany.com";
+"team.email.textfield.accessibility" = "あなたの会社のメール アドレス";
+"team.email.button.learn_more" = "もっと知る";
+
+"team.activation_code.headline" = "メール受信しました。";
+"team.activation_code.subheadline" = "%@ に送信した認証コードを入力してください";
+"team.activation_code.button.resend" = "コードを再送する";
+"team.activation_code.button.change_email" = "メールアドレス変更";
+
+"team.full_name.headline" = "あなたの名前";
+"team.full_name.textfield.placeholder" = "フルネーム";
+"team.full_name.textfield.accessibility" = "フルネーム設定";
+
+"team.password.headline" = "パスワード設定";
+"team.password.textfield.placeholder" = "8 文字以上";
+"team.password.textfield.accessibility" = "最低８文字以上でパスワードを入力してください";
+
+
+"team.email_code.input_field.accessbility_label" = "メールに記載された６桁のコードを入力してください。";
+
+// Invite Team Members
+
+"team.invite.header.title" = "チームを作成します";
+"team.invite.header.subtitle" = "同僚を招待します";
+"team.invite.textfield.placeholder" = "colleague@yourcompany.com";
+"team.invite.textfield.accesibility" = "同僚を招待するための電子メール アドレスを入力します。";
+"team.invite.learn_more.title" = "もっと知る";
+"team.invite.top_bar.skip" = "省略";
+"team.invite.top_bar.done" = "完了";
+
+// Team Invite Errors
+"team.invite.error.generic" = "問題が生じたようです。もう一度やり直してください。";
+"team.invite.error.already_registered" = "このメール アドレスは既に使用されています。";
+"team.invite.error.already_invited" = "このメールアドレスは招待済みです";
+"team.invite.error.too_many_invitations" = "招待数の上限に達しました。";
+"team.invite.error.no_internet" = "インターネット接続がありません";
+
+// Guest Room
+
+"guest_room.allow_guests.title" = "Allow guests and services";
+"guest_room.allow_guests.subtitle" = "Open this conversation to services and people outside your team.";
+"guest_room.remove_guests.message" = "Current guests and services will be removed from the conversation. New guests and services will not be allowed.";
+"guest_room.remove_guests.action" = "削除";
+"guest_room.revoke_link.message" = "新しいゲストはこのリンクに参加することができません。現在のゲストはアクセス可能です。";
+"guest_room.revoke_link.action" = "リンク取消";
+
+"guest_room.error.generic.title" = "何か問題があります";
+"guest_room.error.generic.message" = "接続を確認して、もう一度やり直してください。";
+
+"guest_room.link.header.title" = "リンクから他のユーザーを招待します";
+"guest_room.link.header.subtitle" = "Wire を持っていない場合でも、誰でもリンクから会話に参加できます。";
+
+"guest_room.link.button.title" = "リンクを作成";
+
+"guest_room.actions.copy_link" = "リンクをコピー";
+"guest_room.actions.copied_link" = "リンクをコピーしました!";
+"guest_room.actions.share_link" = "リンクを共有";
+"guest_room.actions.revoke_link" = "リンク取消...";
+
+"guest_room.share.message" = "Wire 上の会話に参加します:\n%@";
+
+"guest_room.expiration.hours_left" = "%@ 時間経過";
+"guest_room.expiration.less_than_minutes_left" = "残り%@ 分未満";
+
+// Registration
+
+"registration.launch_back_button.label" = "戻る";
+
+"registration.title" = "登録";
+"registration.close_email_invitation_button.email_title" = "別のメール アドレスを使う";
+"registration.close_email_invitation_button.phone_title" = "電話番号で登録する";
+"registration.close_phone_invitation_button.email_title" = "メールで登録する";
+"registration.close_phone_invitation_button.phone_title" = "別の携帯電話を使用する";
+
+"registration.enter_phone_number.title" = "電話番号を編集する";
+"registration.enter_phone_number.placeholder" = "電話番号";
+
+"registration.verify_phone_number.instructions" = "%@に送信された認証コードを入力してください。";
+"registration.verify_phone_number.resend" = "再送する";
+"registration.verify_phone_number.resend_placeholder" = "コードが表示されませんか？\n新しいコードを%.0f秒以内にリクエストすることができます。";
+
+"registration.verify_email.instructions" = "%@にメールを送信しました。\n リンクに従ってあなたのメールアドレスを確認してください。";
+"registration.verify_email.resend.instructions" = "メッセージを取得できませんでしたか?";
+"registration.verify_email.resend.button_title" = "再送信";
+
+"registration.select_picture.subtitle" = "Wire は写真があると素敵です。";
+"registration.select_picture.button_title" = "自分で選ぶ";
+"registration.keep_picture.button_title" = "これにする";
+"registration.camera_action.title" = "写真を撮影する";
+"registration.photo_gallery_action.title" = "写真を選択してください。";
+"registration.cancel_action.title" = "キャンセル";
+
+"registration.no_history.hero" = "このデバイスで Wire を使用するのは初めてです。";
+"registration.no_history.subtitle" = "プライバシー上の理由から、会話の履歴はここに表示されません。";
+"registration.no_history.got_it" = "OK";
+"registration.no_history.restore_backup" = "バックアップからリストアする";
+
+"registration.alert.account_exists.title" = "Account Exists";
+"registration.alert.account_exists.message_phone" = "The phone number you used to register is already linked to an account.\n\nUse another phone number, or try to log in if you own this account.";
+"registration.alert.account_exists.message_email" = "The email address you used to register is already linked to an account.\n\n Use another email address, or try to log in if you own this account.";
+"registration.alert.change_email_action" = "Change Email";
+"registration.alert.change_phone_action" = "Change Phone";
+"registration.alert.change_signin_action" = "Sign In";
+
+// Restore History Warning Alert
+"registration.no_history.restore_backup_warning.title" = "リストア履歴";
+"registration.no_history.restore_backup_warning.message" = "リストアするとバックアップされた内容で、デバイスの会話履歴を上書きします。また、同じプラットフォームで作成されたバックアップデータからのみリストア可能です。";
+"registration.no_history.restore_backup_warning.proceed" = "バックアップファイルを選択します。";
+
+/// Restore History Failure Alerts
+"registration.no_history.restore_backup_failed.try_again" = "もう一度試す";
+
+// Generic
+"registration.no_history.restore_backup_failed.title" = "何か問題があります";
+"registration.no_history.restore_backup_failed.message" = "あなたの履歴はリストアできませんでした。";
+
+// Wrong Account
+"registration.no_history.restore_backup_failed.wrong_account.title" = "互換性のないバックアップ";
+"registration.no_history.restore_backup_failed.wrong_account.message" = "別のアカウントからの履歴はリストアできません。";
+
+// Incompatible Version
+"registration.no_history.restore_backup_failed.wrong_version.title" = "互換性のないバックアップ";
+"registration.no_history.restore_backup_failed.wrong_version.message" = "このバックアップデータは、新しいまたは古すぎる Wire で作成されたため、リストアできません。";
+
+// SSO – Company Login
+"login.sso.alert.title" = "企業ログイン";
+"login.sso.alert.message" = "企業用シングルサインオン アクセスコードを入力します。";
+"login.sso.alert.action" = "ログイン";
+"login.sso.alert.text_field.placeholder" = "シングルサインオン アクセスコード";
+
+"login.sso.error.alert.title" = "何か問題があります";
+"login.sso.error.alert.invalid_code.title" = "コードが無効です。";
+"login.sso.error.alert.invalid_code.message" = "企業 シングルサインオン アクセスコードを確認して、もう一度やりなおしてください。";
+"login.sso.error.offline.alert.message" = "インターネット接続を確認して、もう一度やり直してください。";
+"login.sso.error.alert.message" = "詳細については、チームの管理者にお問い合わせください (Error %@)";
+"login.sso.error.alert.unknown.message" = "後でもう一度やり直してください。";
+"login.sso.error.alert.invalid_status.message" = "しばらくしてからもう一度お試しください (Error %@)";
+
+// Restore In Progress Loading Titles
+"registration.no_history.restore_backup.restoring" = "復元中…";
+"registration.no_history.restore_backup.completed" = "完了";
+
+// Password Import Alert
+"registration.no_history.restore_backup.password.title" = "このバックアップはパスワード保護されています。";
+"registration.no_history.restore_backup.password.message" = "このバックアップをリストアするにはパスワードが必要です。";
+"registration.no_history.restore_backup.password.placeholder" = "パスワード";
+"registration.no_history.restore_backup.password_error.title" = "パスワードが間違っています";
+
+"registration.no_history.logged_out.hero" = "以前にこのデバイスでワイヤーを使用しました。";
+"registration.no_history.logged_out.subtitle" = "同時に送信されたメッセージは表示されません。";
+"registration.no_history.logged_out.got_it" = "OK";
+
+"registration.enter_name.title" = "名前を編集";
+"registration.enter_name.hero" = "あなたを何と呼べばいいですか?";
+"registration.enter_name.placeholder" = "あなたの氏名";
+
+"registration.terms_of_use.title" = "Wireにようこそ！";
+"registration.terms_of_use.terms" = "継続することによってあなたはWireの利用規約に同意したことになります。";
+"registration.terms_of_use.terms.link" = "利用規約";
+"registration.terms_of_use.agree" = "同意する";
+
+"registration.terms_of_use.terms.title" = "利用規約";
+"registration.terms_of_use.terms.message" = "利用規約に同意して、続行してください。";
+"registration.terms_of_use.terms.view" = "ビュー";
+"registration.terms_of_use.accept" = "承諾";
+
+"registration.email_flow.title" = "メールで登録する。";
+"registration.email_flow.email_step.title" = "詳細を編集する";
+
+"registration.country_select.title" = "国";
+
+"registration.share_contacts.hero.title" = "Wireで友人を見つける";
+"registration.share_contacts.hero.paragraph" = "他のユーザーとつながるために、Wireがあなたの連絡先にアクセスすることを許可してください。私たちはすべての情報を匿名化し、他の誰ともあなたの連絡先に関する情報をシェアしません。";
+"registration.share_contacts.find_friends_button.title" = "連絡先を共有します";
+"registration.share_contacts.skip_button.title" = "いまは行わない";
+
+"registration.address_book_access_denied.hero.title" = "Wireはあなたの連絡先へのアクセスしていません。";
+"registration.address_book_access_denied.hero.paragraph1" = "連絡先をシェアした場合、Wireで友人を探すことが容易になります。";
+"registration.address_book_access_denied.hero.paragraph2" = "設定から連絡先を有効にすることで連絡先にアクセスできるようになります。";
+"registration.address_book_access_denied.settings_button.title" = "設定";
+"registration.address_book_access_denied.maybe_later_button.title" = "後で";
+
+"registration.push_access_denied.hero.title" = "電話やメッセージを見逃さない";
+"registration.push_access_denied.hero.paragraph1" = "設定で通知を有効にする";
+"registration.push_access_denied.settings_button.title" = "設定に移動する";
+"registration.push_access_denied.maybe_later_button.title" = "後で";
+
+"registration.signin.title" = "ログイン";
+"registration.signin.too_many_devices.title" = "";
+"registration.signin.too_many_devices.subtitle" = "このデバイスで Wire を使用するため、他のデバイスを 1 つ削除してください。";
+"registration.signin.too_many_devices.manage_button.title" = "デバイスを管理";
+"registration.signin.too_many_devices.sign_out_button.title" = "ログアウト";
+"registration.signin.email_button.title" = "メール";
+"registration.signin.phone_button.title" = "携帯電話";
+
+"registration.signin.alert.password_needed.title" = "パスワードが必要";
+"registration.signin.alert.password_needed.message" = "ログインするためにパスワードを入力してください。";
+
+"registration.devices.title" = "端末";
+"registration.devices.active_list_header" = "アクティブ";
+"registration.devices.current_list_header" = "最新";
+"registration.devices.active_list_subtitle" = "もし上のデバイスを知らない場合は、それを削除して、パスワードをリセットしてください。";
+"registration.devices.activated" = "Activated %@";
+"registration.devices.id" = "ID:";
+
+"signin.use_email.label" = "メールアドレス でログイン";
+"signin.use_phone.label" = "電話番号 でログイン";
+"signin.forgot_password" = "パスワードをお忘れですか？";
+"signin.use_one_password.label" = "1Password でログイン";
+"signin.use_one_password.hint" = "1Password からダブタップでパスワードを入力";
+"signin.confirm" = "ログイン";
+"signin.company_idp.button.title" = "法人向け";
+
+"registration.phone_country" = "国";
+"registration.phone_code" = "国コード";
+"registration.phone_country.hint" = "ダブルタップして他の国を選択します。";
+"registration.phone_code.hint" = "ダブルタップして他の国コードを入力します。";
+"registration.phone.verify.label" = "電話番号を確認";
+"registration.phone.verify_field.label" = "認証コード";
+
+"registration.add_phone_number.hero.title" = "電話番号を追加する";
+"registration.add_phone_number.hero.paragraph" = "これはあなたが友人を探すことを容易にします。私たちは決して第三者とシェアいません。";
+"registration.add_phone_number.skip_button.title" = "いまは行わない";
+
+"registration.add_email_password.hero.title" = "メールアドレスとパスワードを追加してください。";
+"registration.add_email_password.hero.paragraph" = "これにより、複数のデバイスで Wire を使用できます。";
+
+"registration.email_invitation.title" = "招待状";
+"registration.email_invitation.hero.title" = "こんにちは、%@";
+"registration.email_invitation.hero.paragraph" = "アカウントを作成するためのパスワードを選択してください。";
+
+"registration.phone_invitation.title" = "招待状";
+"registration.phone_invitation.hero.title" = "こんにちは、%@";
+"registration.phone_invitation.hero.paragraph" = "アカウントの作成までもうひと息です。";
+
+"registration.confirm" = "サインアップ";
+"registration.phone.country_code.hint" = "ダブルタップしてこの国から、電話番号を利用します。";
+
+"error.name_and_email" = "名前と有効なメールアドレスを入力してください。";
+"error.full_name" = "氏名を入力してください";
+"error.email" = "有効なメール アドレスを入力してください";
+"error.input.too_long" = "入力が長すぎます";
+"error.input.too_short" = "入力が短すぎます";
+"error.email.invalid" = "有効なメール アドレスを入力してください";
+"error.phone.invalid" = "有効な電話番号を入力してください";
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Username takeover screen
+"registration.select_handle.takeover.subtitle" = "Wireでのユーザーネームを選ぶ";
+"registration.select_handle.takeover.subtitle_link" = "もっと知る";
+
+"registration.select_handle.takeover.choose_own" = "自分のものを選ぶ";
+"registration.select_handle.takeover.keep_suggested" = "これにする";
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++
+// ZMUserSessionErrorCode mapping. Used during registration and profile edit
+"error.user.unkown_error" = "問題が生じたようです。もう一度やり直してください。";
+"error.user.needs_credentials" = "詳細を確認して、もう一度やり直してください。";
+"error.user.invalid_credentials" = "詳細を確認して、もう一度やり直してください。";
+"error.user.account_pending_activation" = "アクセスをしようとしているアカウントは、ライセンス認証の保留中です。詳細をご確認ください。";
+"error.user.network_error" = "ネットワークに問題があるようです。後でもう一度お試しください。";
+"error.user.email_is_taken" = "入力したメール アドレスはすでに登録されています。もう一度、やり直して頂けますようお願いします。";
+"error.user.phone_is_taken" = "指定した電話番号はすでに登録されています。もう一度やり直してください。";
+"error.user.phone_code_invalid" = "有効なコードを入力してください。";
+"error.user.phone_code_too_many" = "すでに SMS 経由でコードを送信しました。新しいものを取得するには 10 分後に、再送信をタップします。";
+"error.user.registration_unknown_error" = "何か問題が起きたようです。もう一度やり直してください。";
+"error.user.device_deleted_remotely" = "別のデバイスからログアウトしました。";
+"error.user.last_identity_cant_be_deleted" = "メールまたは電話番号のいずれかを削除するためには、それらが登録されている必要があります。";
+"error.user.account_suspended" = "このアカウントは、もはやログイン権限はありません";
+"error.user.account_limit_reached" = "３アカウント以上は追加できません。";
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Those are caught by the UI without involving the SE validation. Basically very similar to ZMUserSessionErrorCode onces
+"error.updating_password" = "パスワードの更新ができませんでした。";
+
+"error.group_call.too_many_members_in_conversation.title" = "呼び出す人が多すぎます";
+"error.group_call.too_many_members_in_conversation" = "電話は最大%d人までとの間ですることができます。";
+"error.group_call.too_many_participants_in_the_call.title" = "この通話は満員です";
+"error.group_call.too_many_participants_in_the_call" = "There’s only room for %d participants in here.";
+"error.call.gsm_ongoing.title" = "携帯電話通話";
+"error.call.gsm_ongoing" = "Wireでの通話の前に、携帯電話の通話を終わらせてください。";
+"error.call.general.title" = "呼び出しエラー";
+"error.call.general" = "数分後に再度電話をしてみてください。";
+"error.call.slow_connection.title" = "インターネット接続が遅いです";
+"error.call.slow_connection" = "通話中に問題が発生する可能性があります";
+"error.call.slow_connection.call_anyway" = "とにかく電話をする";
+
+"error.invite.no_email_provider" = "メールで招待状を送るために、メールクライアントの設定をしてください。";
+"error.invite.no_messaging_provider" = "SMSで招待状を送るために、SMSの設定をしてください。";
+
+"error.conversation.title" = "エラー";
+"error.conversation.cannot_add" = "参加者の追加に失敗しました";
+"error.conversation.cannot_remove" = "参加者の削除に失敗しました";
+"error.conversation.too_many_members" = "会話数が上限に達しました。";
+"error.conversation.offline" = "インターネット接続に問題があるようです。インターネット接続を確認してください。";
+
+"sketchpad.initial_hint" = "色をタップしてブラシのサイズを変更します";
+
+"migration.please_wait_message" = "どうぞしばらくお待ちください";
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Those are used by the backend to localize APNS
+"push.notification.new_user" = "%@がWireに参加しました";
+"push.notification.new_message" = "新着メッセージ";
+
+
+//Force Update
+"force.update.title" = "アップデートが必要です。";
+"force.update.message" = "新しい機能を利用できていないようです。\n最新バージョンのWireをApp Storeでダウンロードしてください。";
+"force.update.ok_button" = "App Storeに行く";
+
+// Third Party
+"giphy.conversation.message" = "%@ giphy.comから";
+"giphy.conversation.random_message" = "giphy.comから";
+"giphy.error.no_more_results" = "これ以上gifがありません。";
+"giphy.error.no_result" = "gifが見つかりませんでした。";
+
+"giphy.confirm" = "送信する";
+"giphy.cancel" = "キャンセル";
+"giphy.search_placeholder" = "Giphy を検索";
+
+"invite_banner.title" = "Wireに友達を連れてくる！";
+"invite_banner.message" = "二人またはグループで、電話、メッセージ、スケッチ、Gifのやり取りを楽しんでください！";
+"invite_banner.invite_button_title" = "さらに招待する";
+
+// Collections
+"collections.section.images.title" = "写真";
+"collections.section.files.title" = "ファイル";
+"collections.section.videos.title" = "ビデオ";
+"collections.section.links.title" = "リンク";
+"collections.section.all.button" = "全てを表示 %d →";
+"collections.section.no_items" = "コレクションにアイテムがありません。";
+"collections.image_viewer.copied.title" = "写真を保存しました";
+
+"collections.search.field.placeholder" = "テキストメッセージの検索";
+"collections.search.no_items" = "見つかりませんでした";
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Message composing / drafts
+
+"compose.drafts.title" = "メッセージ";
+"compose.drafts.empty.title" = "メッセージがありません";
+"compose.drafts.empty.subtitle" = "+をタップして１つ作成する";
+"compose.drafts.compose.title" = "メッセージを入力します";
+"compose.drafts.compose.subject.placeholder" = "タップして件名をセット";
+
+"compose.drafts.compose.delete.confirm.title" = "削除を確認する";
+"compose.drafts.compose.delete.confirm.message" = "この操作は下書きを完全に削除します。この操作を元に戻すことはできません。";
+"compose.drafts.compose.delete.confirm.action.title" = "削除";
+
+"compose.drafts.compose.dismiss.confirm.title" = "下書きとして保存";
+"compose.drafts.compose.dismiss.confirm.action.title" = "保存";
+"compose.drafts.compose.dismiss.delete.action.title" = "削除";
+
+"availability.message.cancel" = "キャンセル";
+"availability.message.set_status" = "ステータスを設定";
+
+"availability.none" = "なし";
+"availability.available" = "利用できます";
+"availability.away" = "不在";
+"availability.busy" = "取り込み中";
+"availability.available.placeholder" = "%@ が利用可能です。";
+"availability.away.placeholder" = "%@ は退席しています";
+"availability.busy.placeholder" = "%@ は取り込み中です";
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Call Quality Survey
+
+"calling.quality_survey.title" = "通話品質フィードバック";
+"calling.quality_survey.question" = "通話の全体的な品質をどのように評価しますか？";
+"calling.quality_survey.answer.1" = "悪い";
+"calling.quality_survey.answer.2" = "乏しい";
+"calling.quality_survey.answer.3" = "普通";
+"calling.quality_survey.answer.4" = "良い";
+"calling.quality_survey.answer.5" = "非常に良い";
+"calling.quality_survey.skip_button_title" = "省略";
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++
+// URL Action
+
+"url_action.confirm" = "確認";
+"url_action.title" = "このURLを確認します";
+"url_action.connect_to_bot.message" = "Bot に接続しますか？";
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++
+// News and offers consent prompt
+
+"news_offers.consent.title" = "電子メールで Wireからニュースや製品アップデート情報を受け取りますか？";
+"news_offers.consent.message" = "購読解除はいつでもできます。";
+"news_offers.consent.button.privacy_policy.title" = "プライバシーポリシー";
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Message Details
+"message_details.empty_likes" = "No one has liked this message yet.";
+"message_details.empty_read_receipts" = "No one has read this message yet.";
+"message_details.read_receipts_disabled" = "Read receipts were not on when this message was sent.";
+"message_details.combined_title" = "Message Details";
+"message_details.likes_title" = "Liked";
+"message_details.receipts_title" = "Read";
+"message_details.tabs.seen" = "Read (%d)";
+"message_details.tabs.likes" = "Liked (%d)";
+"message_details.subtitle_send_date" = "Sent: %@";
+"message_details.subtitle_edit_date" = "編集済: %@";
+"message_details.subtitle_label_voiceOver" = "Message Details";
+"message_details.user_handle_subtitle_label" = "ユーザーネーム";
+"message_details.user_read_timestamp_subtitle_label" = "Read at";
