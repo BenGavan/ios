@@ -37,7 +37,7 @@ class SettingViewController: UIViewController, SettingsTopBarDelegate {
         print("Tappp")
     }
     
-    // MARK: SettingsTopBarDelegate
+    // MARK: - SettingsTopBarDelegate
     func back() {
         self.mainNavigationController?.popViewController(animated: true)
     }

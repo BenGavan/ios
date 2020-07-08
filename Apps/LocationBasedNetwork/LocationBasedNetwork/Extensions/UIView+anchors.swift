@@ -70,7 +70,6 @@ extension UIView {
     
     func setWidth(_ constant: CGFloat) {
         self.translatesAutoresizingMaskIntoConstraints = false
-        self.translatesAutoresizingMaskIntoConstraints = false
         self.widthAnchor.constraint(equalToConstant: constant).isActive = true
     }
     
